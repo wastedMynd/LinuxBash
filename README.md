@@ -32,7 +32,7 @@ Scripts:
 {
 	"ScriptInfo": {
 			"BashScriptFileName": "linux_all_install.sh",
-			"LastModified": "Sun, Feb 07 2021 at 19:05"
+			"LastModified": "Sun, Feb 07 2021 at 19:05",
             "Description": "9Nite like, Linux App Installer,
              Please set your password on /etc/environment as PASS=<your system password>
              *this is for commands that may require sudo.
