@@ -60,7 +60,7 @@ sleep 2
 
 # 0. Add other useful linux applications on the 'Application Installation Section'.
 # Add more applictions, and after; add a space... 
-APPLICATIONS="update-manager-core tmux vim neofetch mc cmatrix " # <-- here
+APPLICATIONS="update-manager-core tmux vim neofetch mc cmatrix axel xfburn " # <-- here
 
 
 
@@ -157,3 +157,9 @@ echo ""
 # Linux Application Installation ended on  Sun Feb 7 18:56:02 SAST 2021
 # Linux Applcation Installation started on Sun Feb 7 18:58:59 SAST 2021
 # Linux Application Installation ended on  Sun Feb 7 18:59:18 SAST 2021
+# Linux Applcation Installation started on Mon Feb 8 01:24:48 SAST 2021
+# Linux Application Installation ended on  Mon Feb 8 01:25:07 SAST 2021
+# Linux Applcation Installation started on Mon Feb 8 02:10:27 SAST 2021
+# Linux Application Installation ended on  Mon Feb 8 02:11:04 SAST 2021
+# Linux Applcation Installation started on Mon Feb 8 02:28:57 SAST 2021
+# Linux Application Installation ended on  Mon Feb 8 02:30:55 SAST 2021
