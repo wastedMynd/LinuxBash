@@ -86,16 +86,14 @@ APPLICATIONS="$WEB_BROSWERS $UPDATE_MANAGER $TERMINAL_HELPERS $EDITORS $DOWNLOAD
 
 # Iterating over APPLICATIONS 
 for app in $APPLICATIONS; do
-
+    
+    sleep 2
     echo ""
     echo -e ${secondary_color} 
 
-    # 1. Display to the user, what appliction is to be installed.     
     echo "About to Install '${app^^}'"
-    
-    echo -e ${reset_color}
 
-    sleep 2
+    echo -e ${reset_color}
 
     # 1.1 checking if $app exists on your system...
     if which $app > /dev/null;
@@ -155,14 +153,16 @@ done
 #--------------------------PLEASE DO NOT REMOVE THIS------------------------------#
 
 echo "# Linux Application Installation ended on  "$(date) >> ./linux_app_install.sh
+echo "" >> ./linux_app_install.sh
 echo ""
+
 echo -e ${secondary_color} 
 echo "Linux Application Installation ended, Goodbye."
 echo -e ${reset_color}
-sleep 2
 echo ""
 
 #-------------------------Srcipt Execution Log------------------------------------#
 
-# Linux Applcation Installation started on Mon Feb 8 21:56:26 SAST 2021
-# Linux Application Installation ended on  Mon Feb 8 21:57:43 SAST 2021
+# Linux Applcation Installation started on Mon Feb 8 22:49:36 SAST 2021
+# Linux Application Installation ended on  Mon Feb 8 22:50:36 SAST 2021 [UX PERFOMANCE FIXED]
+
