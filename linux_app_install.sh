@@ -240,18 +240,3 @@ echo ""
 # Linux Applcation Installation started on Mon Feb 8 22:49:36 SAST 2021
 # Linux Application Installation ended on  Mon Feb 8 22:50:36 SAST 2021 [UX PERFOMANCE FIXED]
 
-# Linux Applcation Installation started on Wed Feb 10 14:59:52 SAST 2021
-# Linux Application Installation ended on  Wed Feb 10 15:01:37 SAST 2021
-
-# Linux Applcation Installation started on Wed Feb 10 15:06:49 SAST 2021
-# Linux Application Installation ended on  Wed Feb 10 15:10:04 SAST 2021
-
-# Linux Applcation Installation started on Wed Feb 10 15:12:41 SAST 2021
-# Linux Application Installation ended on  Wed Feb 10 15:15:15 SAST 2021
-
-# Linux Applcation Installation started on Wed Feb 10 15:24:03 SAST 2021
-# Linux Application Installation ended on  Wed Feb 10 15:25:27 SAST 2021
-
-# Linux Applcation Installation started on Wed Feb 10 15:26:55 SAST 2021
-# Linux Application Installation ended on  Wed Feb 10 15:28:08 SAST 2021
-
