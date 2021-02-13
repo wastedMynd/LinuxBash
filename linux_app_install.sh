@@ -58,23 +58,23 @@ sleep 2
 
 
 # 0. Add other useful linux applications on the 'Application Installation Section'.
-# Add more applictions, and after; add a space...
+# To add more applictions, add a space, type your app name. example if on EDITORS="vim", EDITORS="vim nano"
 
 WEB_BROSWERS="luakit lynx midori dillo epiphany netsurf"
 
 UPDATE_MANAGER="update-manager-core"
 
-TERMINAL_HELPERS="tmux neofetch mc"
+TERMINAL_HELPERS="tmux neofetch mc ranger"
 
 EDITORS="vim nano"
 
-DOWNLOADERS="wget axel curl snapd"
+DOWNLOADERS="wget axel curl snapd youtube-dl"
 
 CD_BURNS="xfburn"
 
 AESTHETICS="cmatrix"
 
-PROGRAMMING="git"
+PROGRAMMING="git nginx-core nginx-extras nginx-full nginx-light"
 
 OTHER_APPS=""
 
@@ -84,6 +84,13 @@ APPLICATIONS="$WEB_BROSWERS $UPDATE_MANAGER $TERMINAL_HELPERS $EDITORS $DOWNLOAD
 
 #---------------------------------------------------------------------------------#
 
+echo ""
+echo -e ${secondary_color}
+echo "getting the up to date /etc/environment"
+echo -e ${reset_color}
+. /etc/environment
+
+#--------------------------------------------------------------------------------#
 
 # Iterating over APPLICATIONS
 for app in $APPLICATIONS; do
@@ -121,7 +128,7 @@ for app in $APPLICATIONS; do
 
             echo ""
             # 3.1.1 Prefix, echo $PASS | sudo -S apt install -yf <name of the application>
-            sudo apt install -yf $app
+            echo $PASS | sudo -S apt install -yf $app
 
 	    if which $app > /dev/null;
             then
