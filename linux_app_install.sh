@@ -64,7 +64,7 @@ WEB_BROSWERS="luakit lynx midori dillo epiphany netsurf"
 
 UPDATE_MANAGER="update-manager-core"
 
-TERMINAL_HELPERS="tmux neofetch mc ranger"
+TERMINAL_HELPERS="tmux neofetch mc ranger openssh-server"
 
 EDITORS="vim nano"
 
