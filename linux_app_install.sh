@@ -68,7 +68,7 @@ TERMINAL_HELPERS="tmux neofetch mc ranger"
 
 EDITORS="vim nano"
 
-DOWNLOADERS="wget axel curl snapd youtube-dl"
+DOWNLOADERS="wget axel curl snapd"
 
 CD_BURNS="xfburn"
 
@@ -228,6 +228,17 @@ do
         fi
     fi
 done
+
+# youtube-dl download
+#  Prompt the user, if they would like to install this app
+echo -e ${propmt_color}
+read -p "Would you like to... install 'youtube-dl' application [y/n]$
+echo -e ${reset_color}
+# 3.1 if they answered yes... do the following
+if [[ ${choice,,} =~ ^y(e[s|p])? ]];then
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+fi
 
 #---------------------------------------------------------------------------------#
 
