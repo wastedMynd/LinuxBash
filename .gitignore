@@ -1,2 +1,4 @@
 project.sh
 display_git.sh
+*.sh.swp
+

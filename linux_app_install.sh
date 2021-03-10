@@ -240,6 +240,17 @@ sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtub
 sudo chmod a+rx /usr/local/bin/youtube-dl
 fi
 
+# spacevim download
+#  Prompt the user, if they would like to install this app
+echo -e ${propmt_color}
+read -p "Would you like to... install 'spacevim' application [y/n]$
+echo -e ${reset_color}
+# 3.1 if they answered yes... do the following
+if [[ ${choice,,} =~ ^y(e[s|p])? ]];
+  then curl -sLf https://spacevim.org/install.sh | bash
+fi
+
+
 #---------------------------------------------------------------------------------#
 
 #--------------------------PLEASE DO NOT REMOVE THIS------------------------------#
