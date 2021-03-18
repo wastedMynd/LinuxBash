@@ -9,7 +9,7 @@ rm install.sh
 echo -e "\n"
 
 echo -e "\n [Step 3 of 5] Appending the 'eval \$(starship init bash)' script line; to ~/.bashrc \n"
-echo -e "\n\n# The line below; Activates the Starship Terminal  Prompt\neval \$(starship init bash)" >> ~/.bashrc
+echo -e "\n\n# The line below; Activates the Starship Terminal Prompt\neval '\$(starship init bash)'" >> ~/.bashrc
 echo -e "The 'eval \$(starship init bash)' script line; was appended to ~/.bashrc; successfully..."
 echo -e "\n"
 
