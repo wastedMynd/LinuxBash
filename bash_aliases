@@ -25,6 +25,12 @@ alias gt='g tag '
 alias gp='g push'
 alias gP='g pull '
 
+modified=$(g_ | grep -m 1 -oP "modified:(\s+\w+)")
+last_tag=$(gt | sed -n '$p')
+
+alias g-='gA && gc "$last_tag:$modified, $1" && echo -e "last tag: $last_tag" '
+alias g+='gt $1 && gp'
+
 # bash
 alias r='. ~/.bashrc'
 alias w='which'
